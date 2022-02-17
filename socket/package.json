@@ -1,0 +1,21 @@
+{
+  "name": "live-api-with-socket-io",
+  "version": "1.0.0",
+  "description": "This is the API for the live streaming and other live services for the SOLITARIT project",
+  "main": "app.js",
+  "author": "Pulasthi Aberathne @ CODEVPRO Pvt. Ltd",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "opencv4nodejs": "^5.6.0",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
